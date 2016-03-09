@@ -1,6 +1,6 @@
 ## creates a natrix and it's inverse, caching the inverse the first time
 
-## makeCacheMatrix creates a special "matrix" object that can cache it's inverse
+## makeCacheMatrix creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         
@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve computes the inverse of the matrix passed in if it doesn't already exists
+## cacheSolve computes the inverse of the matrix passed in if it doesn't already exist
 ## if the inverse exists, return it
 
 cacheSolve <- function(x, ...) {
