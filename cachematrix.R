@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## creates a natrix and it's inverse, caching the inverse the first time
 
-## Write a short comment describing this function
+## makeCacheMatrix creates a special "matrix" object that can cache it's inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         
@@ -29,7 +28,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve computes the inverse of the matrix passed in if it doesn't already exists
+## if the inverse exists, return it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
