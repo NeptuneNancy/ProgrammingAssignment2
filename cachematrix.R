@@ -5,12 +5,10 @@
 
 makeCacheMatrix <- function(x = matrix()) {
         
-        ## inv <- matrix(NA , dim(x)[1], dim(x)[2]) ## matrix same size as x, but NAs
         inv <- NULL
         
         set <- function(y) {
                 x <<- y
-                ## inv <<- matrix(NA , dim(x)[1], dim(x)[2]) 
                 inv <<- NULL
         }
         
